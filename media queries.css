@@ -1,0 +1,95 @@
+@media all and (max-width: 760px) {
+  .navbar ul {
+    display: none;
+  }
+
+  .navbar h1 {
+    font-size: 30px;
+  }
+
+  .navbar i {
+    display: block;
+  }
+
+  .content {
+    margin-top: 50px;
+  }
+  .content h1 {
+    font-size: 60px;
+  }
+
+  .content h3 {
+    color: orangered;
+  }
+
+  .content p {
+    margin-top: 30px;
+  }
+
+  main {
+    padding: 20px;
+  }
+
+  main p, section p, .time p, figcaption p {
+    width: 100%;
+  }
+
+  .program {
+    flex: 100%;
+  }
+
+  aside {
+    width: 100%;
+  }
+
+  aside p {
+    width: 100%;
+  }
+  section {
+    padding: 20px;
+  }
+
+  .classes {
+    flex: 100%;
+  }
+
+  .training-class,
+  .schedule {
+    width: 100%;
+  }
+
+  .classes .schedule img {
+    width: 100%;
+    margin-top: 20px;
+  }
+
+  table {
+    margin-top: 20px;
+  }
+
+  td {
+    padding: 10px;
+  }
+
+  figcaption .trainers {
+    flex-direction: column;
+  }
+
+  .card {
+    width: 100%;
+    margin-top: 20px;
+    padding: 20px;
+  }
+
+  footer {
+    padding: 20px;
+    width: 100%;
+  }
+
+  form {
+    width: 100%;
+  }
+  input[type="submit"] {
+    width: 60%;
+  }
+}
