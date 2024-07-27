@@ -68,7 +68,11 @@
   }
 
   td {
-    padding: 10px;
+    padding: 15px 3px;
+  }
+
+  caption a{
+    margin: 0 7px;
   }
 
   figcaption .trainers {
