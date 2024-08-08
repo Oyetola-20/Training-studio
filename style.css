@@ -471,11 +471,17 @@ input {
   font-size: 16px;
 }
 
-#message{
-  height: 25vh;
+textarea{
+  padding: 10px;
+  border: 1px solid lightgray;
+  min-width: 100%;
+  max-width: 100%;
+  min-height: 100px;
+  max-height: 150px;
+  font-size: 16px;
 }
 
-input[type="submit"] {
+#submit-btn {
   color: white;
   background-color: orangered;
   padding: 5px;
@@ -487,6 +493,6 @@ input[type="submit"] {
   font-size: 15px;
 }
 
-input[type="submit"]:hover{
-  opacity: 0.7;
+#submit-btn:hover{
+  opacity: 0.8;
 }

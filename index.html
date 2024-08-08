@@ -7,8 +7,8 @@
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="media queries.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
-    integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
-    crossorigin="anonymous" referrerpolicy="no-referrer" />
+        integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
     <title>Training Studio</title>
 </head>
 
@@ -225,26 +225,21 @@
         </div>
     </figcaption>
     <footer id="contact">
-            <h1>CONTACT <span>US</span></h1>
-            <form action="">
-
-                <input type="text" name="Name" placeholder="Your Name*" required>
-                <br>
-                <br>
-                <input type="email" name="Name" placeholder="Your Email*" required>
-                <br>
-                <br>
-                <input type="text" name="Name" placeholder="Subject" required id="subject">
-                <br>
-                <br>
-                <input type="text" name="Name" placeholder="Message" required id="message">
-                <br>
-                <br>
-                <input type="submit" value="SEND MESSAGE">
-            </form>
-            <p id="copyright">Copyright © 2020 Training Studio - Designed by Oyetola Mateen</p>
-    
-        
+        <h1>CONTACT <span>US</span></h1>
+        <form action="https://api.web3forms.com/submit" method="POST">
+            <input type="hidden" name="access_key" value="fa546af9-99bf-4b7b-aae1-4292c6e5be2f">
+            <input type="text" name="name" placeholder="Your Name*" required>
+            <br>
+            <br>
+            <input type="email" name=”email” placeholder="Your Email*" required>
+            <br>
+            <br>
+            <textarea name="message" placeholder="Message" required></textarea>
+            <br>
+            <br>
+            <button type="submit" id="submit-btn">SEND MESSAGE</button>
+        </form>
+        <p id="copyright">Copyright © 2020 Training Studio - Designed by Oyetola Mateen</p>
     </footer>
 </body>
 
